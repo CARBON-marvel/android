@@ -52,9 +52,9 @@
   <project path="build" name="CarbonDev/android_build" remote="cr" revision="jb2">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="CarbonDev/android" remote="cr" revision="jb2" />
+  <project path="android" name="thehacka1/android" remote="gh" revision="jb2" />
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="CarbonDev/android_bionic" remote="cr" revision="jb2" />
+  <project path="bionic" name="WinSuk/android_bionic" remote="gh" revision="cm-10.1" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="dalvik" name="CarbonDev/android_dalvik" remote="cr" revision="jb2" />
@@ -308,8 +308,8 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="cm" revision="cm-10.1" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="CarbonDev/android_frameworks_av" remote="cr" revision="jb2" />
-  <project path="frameworks/base" name="CarbonDev/android_frameworks_base" remote="cr" revision="jb2" />
+  <project path="frameworks/av" name="androidarmv6/android_frameworks_av" remote="gh" revision="cm-10.1" />
+  <project path="frameworks/base" name="androidarmv6/android_frameworks_base" remote="gh" revision="cm-10.1" />
   <project path="frameworks/compile/libbcc" name="CarbonDev/android_frameworks_compile_libbcc" remote="cr" revision="jb2" />
   <project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" remote="cm" revision="cm-10.1" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -318,7 +318,7 @@
   <project path="frameworks/ex" name="CarbonDev/frameworks_ex" remote="cr" revision="jb2" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="CarbonDev/android_frameworks_native" remote="cr" revision="jb2" />
+  <project path="frameworks/native" name="androidarmv6/android_frameworks_native" remote="gh" revision="cm-10.1" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" remote="cm" revision="cm-10.1" />
@@ -336,17 +336,17 @@
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="cm" revision="cm-10.1" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="cm" revision="cm-10.1" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="cm-10.1" />
-  <project path="hardware/msm7k" name="CarbonDev/android_hardware_msm7k" remote="cr" revision="jb2" />
+  <project path="hardware/libhardware_legacy" name="androidarmv6/android_hardware_libhardware_legacy" remote="gh" revision="cm-10.1" />
+  <project path="hardware/msm7k" name="androidarmv6/android_hardware_msm7k" remote="gh" revision="cm-10.1" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/display" name="CarbonDev/android_hardware_qcom_display" remote="cr" revision="jb2" />
   <project path="hardware/qcom/display-caf" name="CarbonDev/android_hardware_qcom_display-caf" remote="cr" revision="jb2" />
-  <project name="arco/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="gh" revision="cm-10.1_old" />
-  <project name="arco/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="gh" revision="cm-10.1_old" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
+  <project name="arco/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="gh" revision="cm-10.1" />
+  <project name="arco/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="gh" revision="cm-10.1" />
+  <project path="hardware/qcom/gps" name="androidarmv6/android_hardware_qcom_gps" remote="gh" revision="cm-10.1" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/media" name="CarbonDev/android_hardware_qcom_media" remote="cr" revision="jb2" />
   <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" remote="cm" revision="cm-10.1" />
@@ -389,7 +389,7 @@
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Camera" name="androidarmv6/android_packages_apps_Camera" remote="gh" revision="cm-10.1" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" revision="cm-10.1" />
@@ -469,11 +469,11 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="CyanogenMod/android_sdk" remote="cm" revision="cm-10.1" />
-  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="cm" revision="cm-10.1" />
-  <project path="system/core" name="CarbonDev/android_system_core" remote="cr" revision="jb2" />
+  <project path="system/bluetooth" name="androidarmv6/android_system_bluetooth" remote="gh" revision="cm-10.1" />
+  <project path="system/core" name="androidarmv6/android_system_core" remote="gh" revision="cm-10.1" />
+  <project path="system/netd" name="androidarmv6/android_system_netd" remote="gh" revision="cm-10.1" />
   <project path="system/extras" name="CarbonDev/android_system_extras" remote="cr" revision="jb2" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-10.1" />
   <project path="system/security" name="system_security" remote="ub" revision="jb-mr1" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="cm" revision="cm-10.1" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
@@ -485,7 +485,7 @@
   <project path="vendor/htc" name="CarbonDev/proprietary_vendor_htc" remote="cr" revision="jb2" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="cm-10.1" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="tm" revision="cm-10.1" />
-  <project path="vendor/carbon" name="CarbonDev/android_vendor_carbon" remote="cr" revision="jb2" />
+  <project path="vendor/carbon" name="thehacka1/android_vendor_carbon" remote="gh" revision="jb2" />
   <project path="vendor/lge" name="CarbonDev/android_vendor_lge" remote="cr" revision="jb2" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-10.1" />
   <project path="vendor/motorola/mb886" name="razrqcom-dev-team/android_vendor_motorola_mb886" remote="gh" revision="cm-10.1" />
@@ -504,4 +504,12 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" remote="gh" revision="jb-mr1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="AOKP/vendor_tmobile_providers_ThemeManager" remote="gh" revision="jb-mr1" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
+  
+  <!-- marvel support -->
+  <project name="thehacka1/android_device_htc_marvel" path="device/htc/marvel" remote="gh" revision="master"/>
+  <project name="OWLProject/android_device_htc_msm7x27-common" path="device/htc/msm7x27-common" remote="gh" revision="master"/>
+  <project name="OWLProject/OWL-Predator-KERNEL" path="kernel/htc/msm7227" remote="gh" revision="master" />
+  <project name="OWLProject/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" remote="gh" revision="master" />
+  <project name="thehacka1/android_vendor_htc_marvel" path="vendor/htc/marvel" remote="gh" revision="master" />
+  <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" remote="gh" revision="refs/heads/gingerbread" />
 </manifest>
