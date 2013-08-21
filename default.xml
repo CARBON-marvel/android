@@ -93,7 +93,7 @@
   <project path="device/samsung/celox-common" name="CarbonDev/android_device_samsung_celox-common" remote="cr" revision="jb2" />
   <project path="device/samsung/d2-common" name="CarbonDev/android_device_samsung_d2-common" remote="cr" revision="jb2" />
   <project path="device/samsung/crespo" name="CarbonDev/android_device_samsung_crespo" remote="cr" revision="jb2" />
-  <project path="device/samsung/d2att" name="CarbonDev/android_device_samsung_d2att" remote="cr" revision="jb2" />
+  <project path="device/samsung/d2att" name="CarbonDev/android_device_samsung_d2att" remote="cr" revision="cm-10.1" />
   <project path="device/samsung/d2cri" name="CarbonDev/android_device_samsung_d2cri" remote="cr" revision="jb2" />
   <project path="device/samsung/d2mtr" name="CarbonDev/android_device_samsung_d2mtr" remote="cr" revision="jb2" />
   <project path="device/samsung/d2spr" name="CarbonDev/android_device_samsung_d2spr" remote="cr" revision="jb2" />
