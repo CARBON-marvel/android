@@ -399,7 +399,6 @@
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/HALO" name="ParanoidAndroid/HALO" remote="gh" revision="jellybean" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Trebuchet" name="CarbonDev/android_packages_apps_Trebuchet" remote="cr" revision="jb2" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Mms" name="CarbonDev/android_packages_apps_Mms" remote="cr" revision="jb2" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="refs/tags/android-4.2.2_r1"/>
@@ -413,6 +412,7 @@
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Trebuchet" name="CarbonDev/android_packages_apps_Trebuchet" remote="cr" revision="cm-10.1" />
   <project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Wallpapers" name="CarbonDev/android_packages_apps_Carbon_Wallpapers" remote="cr" revision="jb2" />
   <project path="packages/experimental" name="platform/packages/experimental" />
