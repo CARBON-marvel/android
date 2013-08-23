@@ -504,9 +504,9 @@
   
   <!-- marvel support -->
   <project name="thehacka1/android_device_htc_marvel" path="device/htc/marvel" remote="gh" revision="master"/>
-  <project name="OWLProject/android_device_htc_msm7x27-common" path="device/htc/msm7x27-common" remote="gh" revision="master"/>
-  <project name="OWLProject/OWL-Predator-KERNEL" path="kernel/htc/msm7227" remote="gh" revision="master" />
-  <project name="OWLProject/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" remote="gh" revision="master" />
+  <project name="thehacka1/android_device_htc_msm7x27-common" path="device/htc/msm7x27-common" remote="gh" revision="master"/>
+  <project name="thehacka1/OWL-Predator-KERNEL" path="kernel/htc/msm7227" remote="gh" revision="master" />
+  <project name="thehacka1/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" remote="gh" revision="master" />
   <project name="thehacka1/android_vendor_htc_marvel" path="vendor/htc/marvel" remote="gh" revision="master" />
   <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" remote="gh" revision="refs/heads/gingerbread" />
 </manifest>
