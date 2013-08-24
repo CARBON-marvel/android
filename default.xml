@@ -86,7 +86,7 @@
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
   <project path="external/clang" name="android_external_clang" remote="nc" revision="cm-10.1-linaro" />
   <project path="external/compiler-rt" name="CyanogenMod/android_external_compiler-rt" remote="cm" revision="cm-10.1" />
-  <project path="external/dbus" name="platform/external/dbus" />
+  <project path="external/dbus" name="androidarmv6/android_external_dbus" remote="gh" revision="cm-10.1" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" remote="cm" revision="cm-10.1" groups="pdk" />
@@ -258,6 +258,7 @@
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="ub" revision="jb-mr1" />
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="cm" revision="cm-10.1" />
+  <project path="hardware/atheros/wifi/libs" name="androidarmv6/android_hardware_atheros_wifi_libs" remote="cm" revision="cm-10.1" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="cm" revision="cm-10.1" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="cm" revision="cm-10.1" />
   <project path="hardware/libhardware_legacy" name="androidarmv6/android_hardware_libhardware_legacy" remote="gh" revision="cm-10.1" />
