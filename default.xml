@@ -191,7 +191,7 @@
   <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" remote="cm" revision="cm-10.1" />
   <project path="external/ping" name="external_ping" remote="ub" revision="jb-mr1" />
   <project path="external/ping6" name="android_external_ping6" remote="cmdev" revision="cm-10.1-linaro" />
-  <project path="external/ppp" name="CyanogenMod/android_external_ppp" remote="cm" revision="cm-10.1" />
+  <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/qemu" name="platform/external/qemu" />
@@ -233,7 +233,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="androidarmv6/android_frameworks_av" remote="gh" revision="cm-10.1" />
-  <project path="frameworks/base" name="androidarmv6/android_frameworks_base" remote="gh" revision="cm-10.1" />
+  <project path="frameworks/base" name="CarbonDev/android_frameworks_base" remote="cr" revision="jb2" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" remote="cm" revision="cm-10.1" />
   <project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" remote="cm" revision="cm-10.1" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
